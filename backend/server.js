@@ -6,12 +6,6 @@ import { Server } from "socket.io";
 const msg = new nanobuffer(50);
 const getMsgs = () => Array.from(msg).reverse();
 
-msg.push({
-  user: "brian",
-  text: "hi",
-  time: Date.now(),
-});
-
 // serve static assets
 const server = http.createServer((request, response) => {
   return handler(request, response, {
