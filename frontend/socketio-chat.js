@@ -5,7 +5,7 @@ const msgs = document.getElementById("msgs");
 const presence = document.getElementById("presence-indicator");
 let allChat = [];
 
-const socket = io("http://localhost:8080");
+const socket = io("/");
 
 socket.on("connect", () => {
   console.log("connected");
