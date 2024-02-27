@@ -1,3 +1,3 @@
 # temp chat
 
-A  toy irc clone to test out websockets.
+A  miniature irc clone to test out websockets.
